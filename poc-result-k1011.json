@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "check": "chunk has 0x Agreement addr",
+      "count84C6": 0,
+      "countHI": 0,
+      "readsContract": false,
+      "readsAgreement": false
+    },
+    {
+      "case": "P1 vote-action -> attacker EOA 1 ETH",
+      "exploited": true,
+      "victimEthLost": "1.0000",
+      "attackerEthGained": "1.0000"
+    },
+    {
+      "case": "P2 releaseTransaction -> attacker EOA 0.5 ETH",
+      "exploited": true,
+      "attackerEthGained": "0.5000"
+    },
+    {
+      "case": "P3 vote-action -> token transfer 1000 to attacker",
+      "exploited": true,
+      "victimTokLost": "1000",
+      "attackerTokGained": "1000"
+    },
+    {
+      "case": "C0 honest vote",
+      "ok": true,
+      "voteRecorded": true,
+      "victimEthLost": "0.0001"
+    },
+    {
+      "case": "C1 honest release",
+      "ok": true,
+      "released": true,
+      "payeeEthGained": "0.5000"
+    }
+  ],
+  "summary": {
+    "exploited": 3,
+    "controlsOk": 2,
+    "chunkPin": "none"
+  }
+}

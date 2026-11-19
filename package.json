@@ -1,0 +1,1 @@
+{"dependencies":{"viem":"^2.57.20"},"description":"PoC for Bull.family bug bounty report B-31: website agreement page sends the server's transaction verbatim — malicious server turns a Vote/Release/Refund click into an arbitrary payment (local Anvil only, no real funds).","name":"bull-poc-b31-website-agreement-raw-tx","private":true,"type":"module","version":"1.0.0"}
